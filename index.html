@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Timetable</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>📚 Smart Timetable</h1>
+<div class="theme-box">
+    <button id="themeToggle">🌙 Dark Mode</button>
+</div>
+
+<div class="info">
+<p id="date"></p>
+<p id="time"></p>
+<p id="week"></p>
+</div>
+
+<div class="card live">
+
+<h2>🔴 Live Lecture</h2>
+<p id="liveLecture">No Lecture</p>
+
+<div class="timer" id="lectureTimer">
+Lecture Ends In: --
+</div>
+</div>
+<div class="card next">
+<h2>⏭ Next Lecture</h2>
+<p id="nextLecture">No Lecture</p>
+</div>
+
+<h2>Today's Schedule</h2>
+<div id="schedule"></div>
+
+</div>
+
+<h3 style="text-align:center;color:#555;">
+5-B Smart Timetable Dashboard
+</h3>
+
+<script src="script.js"></script>
+</body>
+</html>
