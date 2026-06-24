@@ -1,2 +1,2 @@
 # Smart-Timetable
-My Smart College Time table Project
+My Smart College Timetable Project
